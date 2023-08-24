@@ -1,0 +1,19 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..] 
+
+# train images 
+train:
+  - ../../../../../hw3_data/hw3_dataset/org/images/train
+
+# val images
+val:
+  - D:\S\cvdl\hw3\function\test\fog\val
+
+# test images
+test:
+  - ../../../../../hw3_data/hw3_dataset/fog/images/public_test
+uda:
+  - ../../../../../hw3_data/hw3_dataset/fog/images/train
+
+# number of classes + class name
+nc: 8
+names: ['person', 'car', 'truck', 'bus', 'rider', 'motorcycle', 'bicycle', 'train']
